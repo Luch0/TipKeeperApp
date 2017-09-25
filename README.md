@@ -7,6 +7,8 @@ In the job I currently have, I receive tips in the end of my shift. At the resta
 
 The first version of this app only worked for recording the total money made each work day. In the end of the week I still needed to calculate my entire weekly wage using a calculator. Sometimes the restaurant makes mistakes in the payroll (because of wrong information) and that's why this app was going to be helpful by checking exactly how much I should be paid. For that reason I also added a button which will tell me the exact amount I should be seeing in my check. It takes all information needed (hours worked and tips) for each day of the week and computes the total.
 
+Working in this app really helped me understand how to get input from a user; with the help of EditTexts, CheckBoxes, spinners and a TableLayout I am able to provide a result that the user needs to calculate in a fast and efficient way.
+
 After computation was implemented, I decided to give more functionality to my app by adding a navigation drawer. I also wanted my app to be able to record each worked week. I plan to correctly implement a way to save the information of the week (days worked, hours, tips and total) perhaps as a text file and also give the user the ability to go back and open a text file of a certain week they are interested to see.
 
 This app currently only works with the tip distribution system from my current job. This is the case because each restaurant or any other job involving tips have different percentage distribution and also more or less work positions. I would like to work more on this app and be able to offer it to any tipped worker regardless of their job or position.
